@@ -1,0 +1,92 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Aa][Rr][Mm]/
+[Bb]in/
+[Oo]bj/
+[Ll]ogs/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# Others
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.ipch/
+*.aps
+*.ncb
+*.o
+*.obj
+*.log
+*.tlog
+*.tmp
+*.temp
+*.cache
+*.vs/
+*.vscode/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+Packages/
+*.nuspec
+project.lock.json
+project.fragment.lock.json
+
+# Visual Studio Test Results
+TestResults/
+*.TestResults/
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Third-party libraries
+# Включите только те библиотеки, которые не планируете отслеживать
+# например, если вы используете NuGet
+packages/
+*.nupkg
+
+# User-specific files
+*.suo
+*.user
+*.userprefs
+*.vspx
+*.vspscc
+
+# WPF specific
+*.ilk
+*.meta
+*.sbr
+*.scc
+
+# Visual Studio 2019 and later
+*.vcxproj.user
+*.vcxproj.filters
+*.vcxproj.ide
+*.vsconfig
+
+# Это исключает некоторые временные файлы, которые могут быть созданы
+# при работе с WPF или другими проектами
+*.swp
+*.swo
+*.tmp
+*.bak
+*.svd
+
+# Resharper, code coverage, build logs, etc.
+*.DotCover
+*.coverage
+*.ncrunch*
