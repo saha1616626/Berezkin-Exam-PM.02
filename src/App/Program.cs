@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace App
 {
-	internal class Program
+	public class Program
 	{
 		private static int n; // Кол-во вершин
 
@@ -161,14 +161,14 @@ namespace App
 			return matrix;
 		}
 
-		// Проверка матрицы смежности на корректность смежности (Положительные веса и не пустая)
-		static bool IsMatrixValid(double[,] matrix)
+		// Проверка матрицы смежности на корректность (Положительные веса и не пустая)
+		public static bool IsMatrixValid(double[,] matrix)
 		{
 			return matrix != null && matrix.GetLength(0) == matrix.GetLength(1);
 		}
 
 		// Проверка на корректность номера вершины (Выход за границы)
-		static bool IsVertexValid(int vertex, int size)
+		public static bool IsVertexValid(int vertex, int size)
 		{
 			return vertex > 0 && vertex <= size;
 		}
